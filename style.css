@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@keyframes rotate{
+    from{}
+    to{
+        transform: rotate(360deg);
+    }
+}
 .loading__circle{
         width: 30px;
         height: 30px;
@@ -19,4 +26,9 @@
     border-radius: 50%;
    border: 3px solid red;
    border-bottom-color: transparent;
+   animation-name: rotate;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
 }
+
