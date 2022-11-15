@@ -3,3 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+.loading__circle{
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        border-radius: 50%;
+        border:3px solid black;
+}
+.loading__circle--oval{
+    position: absolute;
+    top:0;
+    left: 0;;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   border: 3px solid red;
+   border-bottom-color: transparent;
+}
